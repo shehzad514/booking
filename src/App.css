@@ -1,8 +1,21 @@
 .container 
 {
-    max-width: 1536px;
+    max-width: 1550px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 2.7rem;
+    padding-right: 2.7rem;
+}
+
+@media (max-width: 1550px)
+{
+    .container{
+        max-width: 1450px;
+    }
+}
+@media (max-width: 1415px)
+{
+    .container{
+        max-width: 1310px;
+    }
 }
