@@ -69,3 +69,11 @@
     width: 25px;
 }
 }
+
+@media (max-width:1310px)
+{
+    .items_cont
+    {
+        width: 250px;
+    }
+}

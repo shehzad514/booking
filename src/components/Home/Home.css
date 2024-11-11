@@ -57,3 +57,11 @@
     border: 2px solid black;
   }
   
+  @media (max-width:1310px)
+  {
+    .add_btn
+    {
+      font-size: 13px;
+      padding: 10px 30px;
+    }
+  }
