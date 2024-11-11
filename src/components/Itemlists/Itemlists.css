@@ -1,0 +1,55 @@
+.item_heading
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin-top: 25px;
+
+}
+
+.items_sec
+{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.items_cont
+{
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 20px;
+    box-shadow: 14px 17px 40px 0px #00000021;
+    padding: 20px 20px;
+    width: 313px;
+
+}
+.items_img_cont
+{
+    margin: 0 auto;
+}
+.list
+{
+    font-size: 35px;
+}
+.items_detail_cont
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.owner_details
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.owner_details img 
+{
+    width: 32px;
+}

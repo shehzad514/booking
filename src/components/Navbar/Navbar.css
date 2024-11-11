@@ -1,0 +1,87 @@
+.navbar
+{
+    border-radius:40px;
+    background-color: transparent;
+    margin-top: 20px;
+    box-shadow: #7090B014;
+}
+#logo
+{
+    background: #7B5AFF;
+    padding: 10px 5px;
+    font-size: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid #7B5AFF;
+}
+#logo:hover 
+{
+    background-color: transparent;
+    color: #7B5AFF;
+    box-shadow: 0 0 15px 5px rgba(123, 90, 255, 0.5);
+}
+.logo
+{
+    margin-left: 20px;
+}
+.nav_container
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_items
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#feed_btn
+{
+    background: #7B5AFF;
+    font-family: "Roboto Flex", sans-serif;
+    border-radius: 30px;
+    padding: 10px 25px;
+    color: white;
+    font-size: 16px;
+    margin-right: 20px;
+    border: 1px solid #7B5AFF;
+}
+#feed_btn:hover 
+{
+    background-color: transparent;
+    box-shadow: 0 0 15px 5px rgba(123, 90, 255, 0.5);
+    color: #7B5AFF;
+    transition: 0.5s;
+}
+#bell, #info
+{
+   color:  #718096;
+    font-size: 30px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+#bell:hover, #info:hover
+{
+    transform: scale(1.1);
+}
+.items
+{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.img_item
+{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.img_item img:hover 
+{
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
+}

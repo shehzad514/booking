@@ -1,0 +1,91 @@
+.addimage_cont
+{
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.addimage_heading
+{
+    background: #F8F8F8;
+    padding: 20px 15px;
+}
+.text_fields
+{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    font-family: 'Roboto Flex';
+    margin: 0 auto; 
+    margin-top: 20px;
+}
+.text_fields label 
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.text_fields input 
+{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 4px 11px 0px #0000000D;
+    padding: 15px 10px;
+    font-size: 16px;
+}
+.up_image
+{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#box
+{
+    border: 1px dashed #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 20px;
+}
+#box:hover 
+{
+    cursor: pointer;
+}
+#file
+{
+    font-size: 48px;
+    color:  #7B5AFF;
+    transition: 0.5s;
+}
+.cancel
+{
+    border-radius: 20px;
+    border: 1px solid #D9D9D9;
+    font-size: 14px;
+    color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.add 
+{
+    background-color: #7B5AFF;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+    border: 1px solid #7B5AFF;
+    transition:  0.5s;
+}
+.add:hover ,.cancel:hover
+{
+    background-color: transparent;
+    box-shadow: 0 0 15px 5px rgba(123, 90, 255, 0.5);
+    color: #7B5AFF;
+}
