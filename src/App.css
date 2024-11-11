@@ -5,6 +5,7 @@
     margin-right: auto;
     padding-left: 2.7rem;
     padding-right: 2.7rem;
+    border: 2px solid red;
 }
 
 @media (max-width: 1550px)
