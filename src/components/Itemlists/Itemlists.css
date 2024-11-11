@@ -11,7 +11,7 @@
 .items_sec
 {
     display: flex;
-    gap: 32px;
+    gap: 30px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -72,8 +72,23 @@
 
 @media (max-width:1310px)
 {
+    .items_sec
+    {
+        gap: 25px;
+    }
     .items_cont
     {
         width: 250px;
+    }
+}
+@media (max-width:1170px)
+{
+    .items_sec
+    {
+        gap: 20px;
+    }
+    .items_cont
+    {
+        width: 230px;
     }
 }
